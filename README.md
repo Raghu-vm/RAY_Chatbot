@@ -180,7 +180,7 @@ Error: `Unable to acquire lock at .next/dev/lock`
 
 ## Notes
 
-- Current config uses `next.config.mjs` with `ignoreBuildErrors: true` for TypeScript.
+- Current config uses `next.config.mjs` with `ignoreBuildErrors: true` for TypeScript..
 - This repository includes workflow exports so backend logic can be re-imported into n8n quickly.
 
 ---
