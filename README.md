@@ -1,4 +1,4 @@
-# RAY v4 - Frontend + n8n Backend
+# RAY v4 - (Frontend + n8n Backend)
 
 RAY v4 is a web-based AI assistant platform with:
 - A Next.js frontend for chat, ticketing, dashboards, and admin user management
