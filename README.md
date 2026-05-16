@@ -51,8 +51,8 @@ The app sends user questions to n8n, n8n retrieves relevant context from vector 
 - `components/ray-desk-page.tsx`: Ticket management UI
 - `components/admin-panel.tsx`: Employee credential creation and management
 - `components/login-page.tsx`: Login UI (demo credentials removed)
-- `Super_RAY.json`: Main n8n workflow export
-- `SYSTEM_DOCUMENTATION.md`: Detailed system reference
+- `n8n/Super_RAY.json`: Main n8n workflow export
+- `docs/SYSTEM_DOCUMENTATION.md`: Detailed system reference
 
 ## How It Works (End-to-End)
 
@@ -180,8 +180,8 @@ Error: `Unable to acquire lock at .next/dev/lock`
 
 ## Notes
 
-- Current config uses `next.config.mjs` with `ignoreBuildErrors: true` for TypeScript..
-- This repository includes workflow exports so backend logic can be re-imported into n8n quickly.
+- Current config uses `next.config.mjs` with `ignoreBuildErrors: true` for TypeScript.
+- This repository includes workflow exports in `n8n/` so backend logic can be re-imported into n8n quickly.
 
 ---
 
